@@ -63,6 +63,6 @@ public class Main {
         if (deliveryDistance > 60 && deliveryDistance <= 100) {
             return 3;
         }
-        return 0; // Если не вошло ни в один интервал
+        return 0;
     }
 }
